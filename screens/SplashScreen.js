@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Image, StyleSheet, View } from "react-native";
-import FrameComponent10 from "../components/FrameComponent10";
-import { Border, Color } from "../GlobalStyles";
+import FrameComponent2 from "../components/FrameComponent2";
+import { Color } from "../GlobalStyles";
 
 const SplashScreen = () => {
   return (
@@ -9,7 +9,7 @@ const SplashScreen = () => {
       <Image
         style={styles.splashScreen1Child}
         resizeMode="cover"
-        source={require("../assets/frame2.png")}
+        source={require("../assets/vector-28.png")}
       />
       <View style={[styles.btnhome, styles.btnhomeLayout]}>
         <Image
@@ -19,7 +19,7 @@ const SplashScreen = () => {
         />
         <View style={styles.view} />
       </View>
-      <FrameComponent10 />
+      <FrameComponent2 />
     </View>
   );
 };
@@ -46,8 +46,8 @@ const styles = StyleSheet.create({
   view: {
     top: 21,
     left: 121,
-    borderRadius: Border.br_11xl,
-    backgroundColor: Color.colorDarkgray_100,
+    borderRadius: 30,
+    backgroundColor: "#a8a8a9",
     width: 134,
     height: 5,
     position: "absolute",

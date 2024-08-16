@@ -27,6 +27,11 @@ import ProductDetails from "./screens/ProductDetails";
 import Menu from "./screens/Menu";
 import AddNewCard from "./screens/AddNewCard";
 import ForgetPassword from "./screens/ForgetPassword";
+import SearchResultView from "./screens/SearchResultView";
+import ContactUs from "./screens/ContactUs";
+import SplashScreen from "./screens/SplashScreen";
+import Story from "./screens/Story";
+import Checkout3 from "./screens/Checkout3";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Text, Pressable, TouchableOpacity } from "react-native";
@@ -171,6 +176,31 @@ const App = () => {
             <Stack.Screen
               name="ForgetPassword"
               component={ForgetPassword}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="SearchResultView"
+              component={SearchResultView}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="ContactUs"
+              component={ContactUs}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="SplashScreen"
+              component={SplashScreen}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="Story"
+              component={Story}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="Checkout3"
+              component={Checkout3}
               options={{ headerShown: false }}
             />
           </Stack.Navigator>

@@ -3,19 +3,18 @@ import { Image, StyleSheet, View, Text } from "react-native";
 import NavBarLt from "../components/NavBarLt";
 import Card from "../components/Card";
 import FooterPrimary from "../components/FooterPrimary";
-import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
+import { FontFamily, FontSize, Color } from "../GlobalStyles";
 
 const SearchResultView = () => {
   return (
     <View style={styles.searchResultView}>
       <NavBarLt
         navBarLtPosition="absolute"
+        navBarLtMarginLeft={-187.5}
         navBarLtTop={0}
         navBarLtLeft="50%"
-        navBarLtMarginLeft={-187.5}
         logoHeight="38"
         urbanCultureFontSize={22}
-        urbanCultureColor="#262626"
       />
       <View style={[styles.searchbox, styles.filterPosition]}>
         <Image
@@ -61,195 +60,40 @@ const SearchResultView = () => {
           <View style={styles.images}>
             <View style={[styles.cardParent, styles.parentCardFlexBox]}>
               <Card
-                image={require("../assets/image33.png")}
-                cardWidth={162}
-                cardHeight={279}
-                cardMarginLeft="unset"
-                frameViewHeight="20.01%"
-                frameViewWidth="98.76%"
-                frameViewTop="79.99%"
-                frameViewRight="1.24%"
-                frameViewPaddingLeft={4}
-                frameViewWidth1={156}
-                loremWidth={45}
-                loremHeight={15}
-                loremFontSize={14}
-                loremIpsumColor="#555"
-                loremIpsumWidth={154}
-                loremIpsumHeight={14}
-                loremIpsumFontSize={12}
-                textMarginTop={3.9}
-                textFontSize={14}
-                imageIconHeight="77.19%"
-                imageIconBottom="22.81%"
+                image={require("../assets/image.png")}
+                propMarginLeft="unset"
+              />
+              <Card
+                image={require("../assets/image1.png")}
+                propMarginLeft={19.6}
+              />
+            </View>
+            <View style={[styles.cardGroup, styles.parentCardFlexBox]}>
+              <Card
+                image={require("../assets/image2.png")}
+                propMarginLeft="unset"
               />
               <Card
                 image={require("../assets/image3.png")}
-                cardWidth={162}
-                cardHeight={279}
-                cardMarginLeft={19.6}
-                frameViewHeight="20.01%"
-                frameViewWidth="98.76%"
-                frameViewTop="79.99%"
-                frameViewRight="1.24%"
-                frameViewPaddingLeft={4}
-                frameViewWidth1={156}
-                loremWidth={45}
-                loremHeight={15}
-                loremFontSize={14}
-                loremIpsumColor="#555"
-                loremIpsumWidth={154}
-                loremIpsumHeight={14}
-                loremIpsumFontSize={12}
-                textMarginTop={3.9}
-                textFontSize={14}
-                imageIconHeight="77.19%"
-                imageIconBottom="22.81%"
+                propMarginLeft={19.6}
               />
             </View>
             <View style={[styles.cardGroup, styles.parentCardFlexBox]}>
               <Card
                 image={require("../assets/image4.png")}
-                cardWidth={162}
-                cardHeight={279}
-                cardMarginLeft="unset"
-                frameViewHeight="20.01%"
-                frameViewWidth="98.76%"
-                frameViewTop="79.99%"
-                frameViewRight="1.24%"
-                frameViewPaddingLeft={4}
-                frameViewWidth1={156}
-                loremWidth={45}
-                loremHeight={15}
-                loremFontSize={14}
-                loremIpsumColor="#555"
-                loremIpsumWidth={154}
-                loremIpsumHeight={14}
-                loremIpsumFontSize={12}
-                textMarginTop={3.9}
-                textFontSize={14}
-                imageIconHeight="77.19%"
-                imageIconBottom="22.81%"
+                propMarginLeft="unset"
               />
               <Card
                 image={require("../assets/image5.png")}
-                cardWidth={162}
-                cardHeight={279}
-                cardMarginLeft={19.6}
-                frameViewHeight="20.01%"
-                frameViewWidth="98.76%"
-                frameViewTop="79.99%"
-                frameViewRight="1.24%"
-                frameViewPaddingLeft={4}
-                frameViewWidth1={156}
-                loremWidth={45}
-                loremHeight={15}
-                loremFontSize={14}
-                loremIpsumColor="#555"
-                loremIpsumWidth={154}
-                loremIpsumHeight={14}
-                loremIpsumFontSize={12}
-                textMarginTop={3.9}
-                textFontSize={14}
-                imageIconHeight="77.19%"
-                imageIconBottom="22.81%"
+                propMarginLeft={19.6}
               />
             </View>
             <View style={[styles.cardGroup, styles.parentCardFlexBox]}>
               <Card
-                image={require("../assets/image29.png")}
-                cardWidth={162}
-                cardHeight={279}
-                cardMarginLeft="unset"
-                frameViewHeight="20.01%"
-                frameViewWidth="98.76%"
-                frameViewTop="79.99%"
-                frameViewRight="1.24%"
-                frameViewPaddingLeft={4}
-                frameViewWidth1={156}
-                loremWidth={45}
-                loremHeight={15}
-                loremFontSize={14}
-                loremIpsumColor="#555"
-                loremIpsumWidth={154}
-                loremIpsumHeight={14}
-                loremIpsumFontSize={12}
-                textMarginTop={3.9}
-                textFontSize={14}
-                imageIconHeight="77.19%"
-                imageIconBottom="22.81%"
+                image={require("../assets/image6.png")}
+                propMarginLeft="unset"
               />
-              <Card
-                image={require("../assets/image30.png")}
-                cardWidth={162}
-                cardHeight={279}
-                cardMarginLeft={19.6}
-                frameViewHeight="20.01%"
-                frameViewWidth="98.76%"
-                frameViewTop="79.99%"
-                frameViewRight="1.24%"
-                frameViewPaddingLeft={4}
-                frameViewWidth1={156}
-                loremWidth={45}
-                loremHeight={15}
-                loremFontSize={14}
-                loremIpsumColor="#555"
-                loremIpsumWidth={154}
-                loremIpsumHeight={14}
-                loremIpsumFontSize={12}
-                textMarginTop={3.9}
-                textFontSize={14}
-                imageIconHeight="77.19%"
-                imageIconBottom="22.81%"
-              />
-            </View>
-            <View style={[styles.cardGroup, styles.parentCardFlexBox]}>
-              <Card
-                image={require("../assets/image34.png")}
-                cardWidth={162}
-                cardHeight={279}
-                cardMarginLeft="unset"
-                frameViewHeight="20.01%"
-                frameViewWidth="98.76%"
-                frameViewTop="79.99%"
-                frameViewRight="1.24%"
-                frameViewPaddingLeft={4}
-                frameViewWidth1={156}
-                loremWidth={45}
-                loremHeight={15}
-                loremFontSize={14}
-                loremIpsumColor="#555"
-                loremIpsumWidth={154}
-                loremIpsumHeight={14}
-                loremIpsumFontSize={12}
-                textMarginTop={3.9}
-                textFontSize={14}
-                imageIconHeight="77.19%"
-                imageIconBottom="22.81%"
-              />
-              <Card
-                image={require("../assets/image35.png")}
-                cardWidth={162}
-                cardHeight={279}
-                cardMarginLeft={19.6}
-                frameViewHeight="20.01%"
-                frameViewWidth="98.76%"
-                frameViewTop="79.99%"
-                frameViewRight="1.24%"
-                frameViewPaddingLeft={4}
-                frameViewWidth1={156}
-                loremWidth={45}
-                loremHeight={15}
-                loremFontSize={14}
-                loremIpsumColor="#555"
-                loremIpsumWidth={154}
-                loremIpsumHeight={14}
-                loremIpsumFontSize={12}
-                textMarginTop={3.9}
-                textFontSize={14}
-                imageIconHeight="77.19%"
-                imageIconBottom="22.81%"
-              />
+              <Card image={require("../assets/image7.png")} />
             </View>
           </View>
         </View>
@@ -279,16 +123,14 @@ const SearchResultView = () => {
         />
       </View>
       <FooterPrimary
-        twitter={require("../assets/twitter.png")}
-        youTube={require("../assets/youtube.png")}
-        softStar={require("../assets/soft-star.png")}
-        softStar1={require("../assets/soft-star.png")}
+        youTube={require("../assets/youtube1.png")}
+        softStar={require("../assets/soft-star1.png")}
+        softStar1={require("../assets/soft-star1.png")}
         footerPrimaryPosition="absolute"
         footerPrimaryMarginLeft={-187.5}
         footerPrimaryBottom={0}
         footerPrimaryLeft="50%"
         footerPrimaryTop="unset"
-        footerPrimaryMarginTop="unset"
       />
     </View>
   );
@@ -309,7 +151,7 @@ const styles = StyleSheet.create({
   },
   newTypo: {
     textAlign: "center",
-    fontFamily: FontFamily.bodyS,
+    fontFamily: FontFamily.bodyL,
   },
   wrapperLayout: {
     height: 31,
@@ -321,9 +163,9 @@ const styles = StyleSheet.create({
     width: 12,
     marginLeft: -6,
     marginTop: -10.5,
-    fontSize: FontSize.bodyM_size,
+    fontSize: FontSize.size_sm,
     textAlign: "center",
-    fontFamily: FontFamily.bodyS,
+    fontFamily: FontFamily.bodyL,
     lineHeight: 24,
     top: "50%",
     left: "50%",
@@ -345,7 +187,7 @@ const styles = StyleSheet.create({
     width: "91.47%",
     top: "99.5%",
     borderStyle: "solid",
-    borderColor: Color.grayScalePlacehoder,
+    borderColor: "#888",
     borderTopWidth: 1,
     height: 0,
     opacity: 0.5,
@@ -357,9 +199,9 @@ const styles = StyleSheet.create({
     marginTop: -14,
     width: "19.2%",
     fontSize: FontSize.bodyL_size,
-    color: Color.grayScaleLabel,
+    color: Color.colorDimgray_100,
     textAlign: "center",
-    fontFamily: FontFamily.bodyS,
+    fontFamily: FontFamily.bodyL,
     lineHeight: 24,
     height: 28,
     top: "50%",
@@ -379,15 +221,15 @@ const styles = StyleSheet.create({
   },
   apparel: {
     color: Color.grayScaleBody,
-    fontSize: FontSize.bodyM_size,
+    fontSize: FontSize.size_sm,
     textAlign: "center",
-    fontFamily: FontFamily.bodyS,
+    fontFamily: FontFamily.bodyL,
     lineHeight: 24,
   },
   new: {
-    fontSize: FontSize.bodyS_size,
+    fontSize: FontSize.size_xs,
     lineHeight: 18,
-    color: Color.greyMLabel,
+    color: Color.colorDimgray_200,
   },
   downIcon: {
     width: 14,
@@ -404,8 +246,8 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   frameWrapper: {
-    borderRadius: Border.br_14xl,
-    backgroundColor: Color.colorGray_400,
+    borderRadius: 33,
+    backgroundColor: "rgba(38, 38, 38, 0.1)",
     width: 73,
     height: 36,
     overflow: "hidden",
@@ -452,10 +294,10 @@ const styles = StyleSheet.create({
     color: Color.offWhite,
   },
   wrapper: {
-    backgroundColor: Color.inputPurple,
+    backgroundColor: Color.colorPlum,
   },
   text1: {
-    color: Color.greyMLabel,
+    color: Color.colorDimgray_200,
   },
   container: {
     backgroundColor: Color.offWhite,
